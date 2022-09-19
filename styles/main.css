@@ -5,7 +5,13 @@ html{
 }
 
 header {
+    display: inline-block;
     color: white;
+    
+}
+
+nav {
+    display: inline-block;
 }
 
 body {
