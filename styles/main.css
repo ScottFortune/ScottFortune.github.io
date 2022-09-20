@@ -4,21 +4,39 @@ html{
     font-weight: 300;
 }
 
+body {
+    line-height: 1.5;
+    margin: auto;
+    padding: 20px;
+    max-width: 900px;
+    color:antiquewhite;
+    background-color: rgb(29, 6, 56);
+}
+
 header {
-    display: inline-block;
+    display: block;
     color: white;
-    
+}
+
+header li {
+    display: inline;
+    padding-left: 20px;
+}
+
+header h4 {
+    display: inline-block;
 }
 
 nav {
     display: inline-block;
 }
 
-body {
-    color:antiquewhite;
-    background-color: rgb(29, 6, 56);
+h4 {
+    font-size: 1.4rem;
 }
 
-a {
+a, a:visited {
+    font-weight:600;
     color:rgb(146, 153, 216);
+    text-decoration: none;
 }
