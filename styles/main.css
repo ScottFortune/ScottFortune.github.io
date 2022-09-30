@@ -8,7 +8,7 @@ body {
     line-height: 1.5;
     margin: auto;
     padding: 20px;
-    max-width: 900px;
+    max-width: 1200px;
     color:antiquewhite;
     background-color: rgb(29, 6, 56);
 }
@@ -37,6 +37,22 @@ h4 {
 
 h5 {
     font-size: 1.5rem;
+}
+
+span {
+    max-width: 30%;
+    padding-left: 40px;
+}
+
+.project-row {
+    align-self: center;
+    display: flex;
+    align-items: center;
+}
+
+.project-right {
+    max-width: 40%;
+    padding-left: 2rem;
 }
 
 a, a:visited {
