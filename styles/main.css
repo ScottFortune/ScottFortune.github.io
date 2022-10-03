@@ -1,5 +1,5 @@
 html{
-    font-size: 14px;
+    font-size: 1rem;
     font-family: sans-serif;
     font-weight: 300;
 }
@@ -31,8 +31,13 @@ nav {
     display: inline-block;
 }
 
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
 h4 {
-    font-size: 1.4rem;
+    font-size: 0.9rem;
 }
 
 h5 {
@@ -47,11 +52,13 @@ span {
 .project-row {
     align-self: center;
     display: flex;
-    align-items: center;
+}
+
+.project-left {
+    padding: 1rem;
 }
 
 .project-right {
-    max-width: 40%;
     padding-left: 2rem;
 }
 
