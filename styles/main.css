@@ -20,7 +20,7 @@ header {
 
 header li {
     display: inline;
-    padding-left: 20px;
+    padding-right: 20px;
 }
 
 header h4 {
@@ -29,6 +29,10 @@ header h4 {
 
 nav {
     display: inline-block;
+}
+
+ul {
+    padding: 0
 }
 
 h1 {
