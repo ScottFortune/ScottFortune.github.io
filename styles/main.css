@@ -53,6 +53,10 @@ span {
     padding-left: 40px;
 }
 
+.gray{
+    color:gray;
+}
+
 .project-row {
     display: flex;
 }
